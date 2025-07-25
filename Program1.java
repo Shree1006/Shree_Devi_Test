@@ -41,7 +41,7 @@ public class Program1 {
         System.out.print("Enter operation (add/subtract/multiply/divide): ");
         String op = sc.next();
 
-        Calculator calc = new Calculator(a, b, op); // No error now
+        Calculator calc = new Calculator(a, b, op); 
         System.out.println("Result: " + calc.calculate());
     }
 }
